@@ -10,6 +10,10 @@ Please contact me to delete any infringement.
 - [x] Java Syntax Highlighting
 - [x] Python Syntax Highlighting
 - [ ] Typescript Syntax Highlighting
-- [ ] Vue Syntax Highlighting 
+- [ ] Vue Syntax Highlighting
+- [ ] HTML Syntax Highlighting
+- [ ] CSS Syntax Highlighting
+- [ ] C Syntax Highlighting
+- [ ] C++ Syntax Highlighting
 
 **Enjoy!🎉**

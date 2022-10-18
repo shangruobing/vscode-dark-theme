@@ -2,7 +2,7 @@
   "name": "jetbrains-new-dark-theme",
   "displayName": "JetBrains New Dark Theme",
   "description": "A Visual Studio Code theme extension based on the new version of the JetBrains IDEs Dark theme.",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "author": "Ruobing Shang",
   "publisher": "Ruobing Shang",
   "repository": "https://github.com/shangruobing/vscode-theme-jetbrains-new-dark",
