@@ -33,6 +33,7 @@
 		"sideBarTitle.foreground": "#bbbbbb",
 		"statusBar.background": "#2b2d30",
 		"statusBar.noFolderBackground": "#2b2d30",
+		"statusBar.debuggingBackground": "#3573F0",
 		"statusBarItem.remoteBackground": "#16825d",
 		"statusBarItem.remoteForeground": "#ffffff",
 		"tab.activeBackground": "#1e1f22",
@@ -134,7 +135,17 @@
 				"storage.modifier.package.java",
 				"support",
 				"constant.language.import-export-all.ts",
-				"storage.type.java"
+				"storage.type.java",
+				"storage.type.generic.wildcard.java",
+				"variable.other.definition.java",
+				"storage.type.generic.java",
+				"keyword.control.ternary.java",
+				"storage.type.function.arrow.java",
+				"meta.preprocessor.include.cpp",
+				"string.quoted.other.lt-gt.include.cpp",
+				"punctuation.definition.string.begin.cpp",
+				"punctuation.definition.string.end.cpp",
+				"storage.modifier.pointer.cpp"
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
@@ -174,7 +185,9 @@
 				"punctuation.definition.keyword.scss",
 				"keyword.operator.logical.python",
 				"variable.language.this.java",
-				"constant.language.java"
+				"constant.language.java",
+				"keyword.operator.instanceof.java",
+				"punctuation.definition.directive.cpp"
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -209,7 +222,6 @@
 				"variable.scss",
 				"variable.language.special.self.python",
 				"variable.parameter.function.language.special.self.python",
-				"variable.other.definition.java",
 				"variable.other.object.property.ts"
 			],
 			"settings": {
@@ -228,7 +240,9 @@
 		{
 			"scope": [
 				"storage.type.annotation.java",
-				"punctuation.definition.annotation.java"
+				"punctuation.definition.annotation.java",
+				"entity.name.function.decorator.python",
+				"punctuation.definition.decorator.python"
 			],
 			"settings": {
 				"foreground": "#BBB529"
@@ -250,6 +264,32 @@
 			"scope": "meta.embedded.assembly",
 			"settings": {
 				"foreground": "#6A8759"
+			}
+		},
+		{
+			"scope": [
+				"support.function.builtin.python",
+				"support.type.exception.python",
+				"support.type.python"
+			],
+			"settings": {
+				"foreground": "#8888C6"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter.function-call.python"
+			],
+			"settings": {
+				"foreground": "#AA4926"
+			}
+		},
+		{
+			"scope": [
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#B200B2"
 			}
 		}
 	]
