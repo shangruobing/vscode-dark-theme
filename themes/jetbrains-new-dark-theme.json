@@ -115,6 +115,7 @@
         },
         {
             "scope": [
+                "entity.name.function.python",
                 "entity.name.function.scss",
                 "entity.name.function.ts",
                 "entity.name.function.vue",
@@ -128,8 +129,7 @@
                 "meta.property-value.scss",
                 "punctuation.definition.entity.css",
                 "punctuation.definition.tag",
-                "support.function",
-                "entity.name.function.python"
+                "support.function"
             ],
             "settings": {
                 "foreground": "#FFC66D"
@@ -176,10 +176,12 @@
                 "constant.other.color.rgb-value.hex.css",
                 "constant.other.enum.java",
                 "meta.object-literal.key.ts",
+                "variable.language.special.cls.python",
                 "variable.language.special.self.python",
                 "variable.other.object.property.java",
                 "variable.other.object.property.ts",
                 "variable.other.property",
+                "variable.parameter.function.language.special.cls.python",
                 "variable.parameter.function.language.special.self.python",
                 "variable.scss"
             ],
@@ -198,7 +200,6 @@
         },
         {
             "scope": [
-                "entity.name.function.decorator.python",
                 "punctuation.definition.annotation.java",
                 "storage.type.annotation.java"
             ],
@@ -208,10 +209,11 @@
         },
         {
             "scope": [
+                "entity.name.function.decorator.python",
+                "punctuation.definition.decorator.python",
                 "support.function.builtin.python",
                 "support.type.exception.python",
-                "support.type.python",
-                "punctuation.definition.decorator.python"
+                "support.type.python"
             ],
             "settings": {
                 "foreground": "#8888C6"
