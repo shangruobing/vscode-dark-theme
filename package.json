@@ -1,11 +1,11 @@
 {
-  "name": "jetbrains-new-dark-theme",
-  "displayName": "JetBrains New Dark Theme",
-  "description": "A Visual Studio Code theme extension based on the new version of the JetBrains IDEs Dark theme.",
-  "version": "0.0.14",
+  "name": "vscode-dark-theme",
+  "displayName": "JetBrains Dark Theme",
+  "description": "A Visual Studio Code theme extension based on the JetBrains IDEs Dark theme.",
+  "version": "0.0.15",
   "author": "Ruobing Shang",
   "publisher": "Ruobing Shang",
-  "repository": "https://github.com/shangruobing/vscode-theme-jetbrains-new-dark",
+  "repository": "https://github.com/shangruobing/vscode-dark-theme",
   "icon": "jetbrains.png",
   "engines": {
     "vscode": "^1.50.0"
@@ -21,9 +21,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "JetBrains New Dark Theme",
+        "label": "JetBrains Dark Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/jetbrains-new-dark-theme.json"
+        "path": "./themes/dark.json"
       }
     ]
   }
