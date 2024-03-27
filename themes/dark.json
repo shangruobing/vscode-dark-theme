@@ -104,7 +104,8 @@
         "variable.other.definition.java",
         "variable.other.readwrite",
         "variable.parameter",
-        "variable"
+        "variable",
+        "text.tex.latex"
       ],
       "settings": {
         "foreground": "#A9B7C6"
@@ -153,7 +154,8 @@
         "storage.modifier",
         "storage.type",
         "storage",
-        "variable.language.this.java"
+        "variable.language.this.java",
+        "punctuation.definition.block.tag.jsdoc"
       ],
       "settings": {
         "foreground": "#CC7832"
@@ -190,7 +192,7 @@
       }
     },
     {
-      "scope": ["punctuation.definition.annotation.java", "storage.type.annotation.java"],
+      "scope": ["storage.type.annotation.java", "punctuation.definition.annotation.java"],
       "settings": {
         "foreground": "#BBB529"
       }

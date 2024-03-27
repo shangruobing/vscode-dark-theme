@@ -1,9 +1,11 @@
 # JetBrains Dark Theme
 A Visual Studio Code theme extension based on the JetBrains IDEs Dark theme.
 
-Author: _Ruobing Shang_
+Author: *Ruobing Shang*
 
-The reason for making this theme extension is that I really like the theme of JetBrains. Please contact me to delete any infringement.
+The reason for making this theme extension is that I really like the new dark theme of JetBrains. 
+
+Please contact me to delete any infringement.
 
 ## Todo
 - [x] Background Color
@@ -20,7 +22,7 @@ The reason for making this theme extension is that I really like the theme of Je
 ```json
 {
   "editor.fontFamily": "JetBrains Mono, Consolas",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "editor.lineHeight": 1.5
 }
 ```
